@@ -1,0 +1,17 @@
+17:25:08.432 [main] DEBUG OlxSel - getting search button
+17:25:08.522 [main] DEBUG OlxSel - Clicking on search button
+17:25:10.523 [main] DEBUG OlxSel - process wait for 2 sec
+17:25:10.697 [main] INFO  OlxSel - Success:The correct page title got displayed
+17:25:10.729 [main] DEBUG OlxSel - Fetching prices of items
+17:25:10.745 [main] DEBUG OlxSel - Fetching names of product
+17:25:11.539 [main] DEBUG OlxSel - Storing values in hashmap
+17:25:11.541 [main] INFO  OlxSel - Data adding to csv file.........
+17:25:11.541 [main] INFO  OlxSel - Successful data added to csv file
+17:25:13.668 [main] DEBUG OlxSel - Browser got closed and end of the Test execution
+17:26:41.960 [main] DEBUG OlxSel - Chrome browser launched
+17:26:44.658 [main] DEBUG OlxSel - reached site
+17:26:44.782 [main] DEBUG OlxSel - Browser maximized
+17:26:44.820 [main] DEBUG OlxSel - Sending
+17:26:44.929 [main] DEBUG OlxSel - clicking on search box
+17:26:45.001 [main] DEBUG OlxSel - Sending keys to search box
+17:26:45.013 [main] DEBUG OlxSel - getting search button
