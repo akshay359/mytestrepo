@@ -13,6 +13,7 @@ public class Empget {
 	 System.out.println(e1.getAddress());
 	 System.out.println(e1.getCourses());
 	 System.out.println(e1.getPhones());
+	 System.out.println(e1.getPhones().getClass().getName());
 	}
 
 }
