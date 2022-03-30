@@ -6,9 +6,9 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 public class Test {
 
 	public static void main(String[] args) {
-	 ApplicationContext context=  new ClassPathXmlApplicationContext("com/springcore/auto/wire/autowire.xml");
+	 ApplicationContext context=  new ClassPathXmlApplicationContext("com/springcore/auto/wire/annotation/aautowire.xml");
 
-	 Emp e=context.getBean("emp1", Emp.class);
+	 Emp e=(Emp) context.getBean("emp");
 	 System.out.println(e);
 	}
 

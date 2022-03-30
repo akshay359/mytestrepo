@@ -1,5 +1,8 @@
 package com.springcore.auto.wire.annotation;
 
+import javax.annotation.PostConstruct;
+import javax.annotation.PreDestroy;
+
 import org.springframework.beans.factory.annotation.Autowired;
 
 public class Emp {
@@ -28,6 +31,17 @@ public class Emp {
 	@Override
 	public String toString() {
 		return "Emp [add=" + add + "]";
+	}
+	@PostConstruct
+	public void start()
+	{
+		System.out.println("starting method");
+	}
+	
+	@PreDestroy
+	public void end()
+	{
+		System.out.println("ending method");
 	}
 
 }
